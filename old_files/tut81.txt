@@ -1,0 +1,18 @@
+Inserting data in mongodb
+
+use harrykart
+
+db.items.insertOne({name:"Samsung 30s",price:220000,
+rating:4.5,qty:233,sold:98
+})
+
+db.items.insertMany([{name:"Samsung 30s",price:220000,
+rating:4.5,qty:233,sold:98
+},{name:"Moto 30s",price:290000,
+rating:4.0,qty:23,sold:56
+},{name:"Realme 30s",price:29000,
+rating:4.9,qty:32,sold:67
+}])
+
+db.items.find({rating: 3.5})
+db.items.find({rating:{$gte:4.3}})

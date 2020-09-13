@@ -1,0 +1,14 @@
+{
+  "name": "notes_web-_dev",
+  "version": "1.0.0",
+  "description": "it is best package ever created.",
+  "main": "temp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prashant kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
